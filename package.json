@@ -1,0 +1,30 @@
+{
+  "name": "portafolio-simple",
+  "version": "1.0.0",
+  "description": "JUD Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "browser-sync start --server \"public/\" --files \"public/css/*.css, public/js/*.js, public/**/*.html, !node_modules/**/*.html\""
+  },
+  "devDependencies": {
+    "browser-sync": "^2.12.8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jud1/Portfolio.git"
+  },
+  "keywords": [
+    "Portfolio",
+    "JUD",
+    "Web",
+    "Developer",
+    "Frontend"
+  ],
+  "author": "Jose Ulloa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jud1/Portfolio/issues"
+  },
+  "homepage": "https://github.com/jud1/Portfolio#readme"
+}
